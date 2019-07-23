@@ -24,18 +24,26 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all 0.07s;
   width: 10rem;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  -webkit-transition: all 0.07s;
+  -moz-transition: all 0.07s;
+  -ms-transition: all 0.07s;
+  -o-transition: all 0.07s;
 }
 
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 kbd {
